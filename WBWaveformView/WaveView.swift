@@ -108,7 +108,7 @@ class WaveView: UIView {
         
         if active {
             backWaveView.updateWithLevel(waveLevel - 0.1)
-            frontWaveView.updateWithLevel(waveLevel*audioScaleFactor)
+            frontWaveView.updateWithLevel(waveLevel*scaleFactor)
             frontWaveView.alpha = min(1, frontWaveView.alpha + 0.2)
             backWaveView.alpha = min(1, backWaveView.alpha + 0.2)
         } else {
