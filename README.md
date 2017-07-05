@@ -5,6 +5,12 @@ An animated waveform written in Swift
 
 ![alt text](https://github.com/WesleyB/WBWaveformView/blob/master/WBWaveformView/WBWaveformView.gif "WBWaveformView Demo gif")
 
+## Features
+
+- Supports lerping between colors on the front wave
+- Animates expansion/collapsing and fading in/out when the view is activated / deactivaed
+- Allows for scaling based on some variable input (i.e. audio levels from the microphone). Tests so far sugguest that the scaling input level should only change by 0.01 in either direction per update to keep the animation smooth
+
 ## Attributions
 Big thanks to [stefanceriu](https://github.com/stefanceriu) for [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView). 
 
